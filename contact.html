@@ -5,11 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- Remember to link to your CSS file! -->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link 
+    rel="stylesheet" 
+    href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" 
+    crossorigin="anonymous"/>
 </head>
 <body>
     <!-- CONTACT PAGE -->
     <!-- TODO: Navbar here -->
+    <nav class="nav a">
+        <span><a href="index.html"><strong>Home</strong></a></span>
+        <span><a href="menu.html"><strong>Menu</strong></a></span>
+        <span><a href="about.html"><strong>About</strong></a></span>
+        <!-- REMOVED THE HREF ON THE CONTACT PAGE SINCE IT'S ALREADY ON THIS PAGE -->
+        <span><a><strong>Contact</strong></a></span>
+    </nav>
     <!-- TODO: Banner Image here-->
+    <img id="banner" alt="Banner logo" src="assets\images\banner.png">
     <main>
         <h2>Hours of Operation</h2>
         <p>
@@ -20,7 +34,16 @@
         </p>
         <h2>Contact Info</h2>
         <p>
-            <strong>Phone Number:</strong> TBD
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <strong>Phone Number:</strong> (619) 675-4754
+        </p>
+        <p>
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            <strong>Address:</strong> 42 Wallaby Way, Sydney
+        </p>
+        <p>
+            <i class="fa fa-address-card" aria-hidden="true"></i>
+            <strong>Customer Service Email:</strong> Findingnemo@disney.com
         </p>
     </main>
 </body>
